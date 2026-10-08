@@ -1,0 +1,1 @@
+document.addEventListener('DOMContentLoaded',()=>document.querySelector('[data-lang-toggle]')?.addEventListener('click',e=>{document.documentElement.lang=document.documentElement.lang==='en'?'ru':'en';e.currentTarget.textContent=document.documentElement.lang.toUpperCase();}));

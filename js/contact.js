@@ -1,0 +1,1 @@
+document.addEventListener('DOMContentLoaded',()=>{const f=document.querySelector('[data-contact-form]');if(!f)return;f.addEventListener('submit',e=>{e.preventDefault();if(!f.checkValidity()){f.reportValidity();return}document.querySelector('[data-form-status]').textContent='Форма проверена. Для реальной отправки подключи Formspree или свой backend.';f.reset()})});
